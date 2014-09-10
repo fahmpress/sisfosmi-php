@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'IstokWebRegular';
+    src: url('font/IstokWeb-Regular-webfont.eot');
+    src: url('font/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('font/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('font/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    font-style: bold;
+
+}
+
+
+@font-face {
+    font-family: 'TendernessRegular';
+    src: url('font/Tenderness-webfont.eot');
+    src: url('font/Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Tenderness-webfont.woff') format('woff'),
+         url('font/Tenderness-webfont.ttf') format('truetype'),
+         url('font/Tenderness-webfont.svg#TendernessRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+	margin:0 auto;
+	padding:0;
+	background:#e9e2d8;
+}
+
+
+#container {
+	max-width: 960px;
+	min-width: 960px;
+	margin:0 auto;
+	margin-bottom:25px;
+	background:url(../images/header.png) repeat;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 7px 7px #000000;
+	-webkit-box-shadow: 0px 7px 7px #000000;
+	box-shadow: 0px 7px 7px #000000;
+	margin-top: 20px;
+}
+
+#header {
+	background:url(../images/header.png) repeat;
+	text-align:center;
+	padding:20px;
+	color:#1f831f
+}
+
+.logout {
+	text-align : left;
+	padding-left : 20px;
+}
+
+.logout a {
+	 color:#b2b4b7;
+}
+
+#menu {
+	background:#1f831f;
+	height:55px;
+}
+
+#content {
+	background:#fcfcfb ;
+}
+
+#footer {
+	background:url(../images/header.png) repeat;
+	padding : 20px;
+	text-align:center;
+	color:#dcdfe3 ;
+	font-family: 'IstokWebRegular';
+	font-size :12px;
+	text-decoration: underline;
+}
+
+.home {
+	height : 250px;
+}
+
+.judul {
+	font-size:34px;
+	font-family: 'TendernessRegular';
+	color:#dcdfe3 ;
+	padding:10px;
+}
+
+.judul2 {
+	font-size:28px;
+	font-family: 'TendernessRegular';
+	color:#dcdfe3 ;
+}
+
+.clear {
+	clear:both;
+}
+
+
+
+.nav {
+	padding-top:15px;
+	padding-left:10px;
+}
+
+.nav li {
+	list-style:none;
+	display:block;
+	float: left;
+	padding-right:10px;
+}
+
+.nav li a {
+	background:#b2b4b7;
+	padding:10px;
+	text-decoration:none;
+	color:#4b4c4c;
+	font-size:13px;
+	font-family: 'IstokWebRegular';
+}
+
+.nav li ul {
+	padding-left:0px;
+	margin-top:5px;
+	position:absolute;
+}
+
+.nav li ul li {
+	float:none;
+	border-bottom:1px solid #9b9da0;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#6d7784;
+	width:150px;
+	color:#b2b4b7;
+	
+}
+.nav li ul li a {
+	padding:0;
+	display:block;
+	background:none;
+	padding-left:5px;
+
+}
+
+
+
+
+
+/* atribut */
+
+.border {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	 border-radius: 3px;
+}
+
+.link:hover {
+		-webkit-transition: background 2s ease;
+		-moz-transition: background 2s ease;
+        -ms-transition: background 2s ease;
+        -o-transition: background 2s ease;
+		transition: background 2s ease;
+}
+
+.linkback:hover {
+	  background:#6d7784;
+	  color:#b2b4b7;
+}
+
+.li:hover {
+	  color:#004a80;
+}
+
+
+
+/* FORM dan TABEL */
+
+.form {
+	padding:20px;
+}
+
+.input {
+	width :300px;
+}
+
+.form hr {
+	border:1px solid #1f831f;
+}
+
+.tabel 
+{
+	border-collapse:collapse;
+	margin-top:10px;
+	width:automatic;
+}
+
+.tabel thead {
+	background:#CCCCCC;
+}
+
+.tabel td 
+{
+	border-collapse:collapse;
+	border:1px solid;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+}
+
+.head {
+	font-family: 'IstokWebRegular';
+	font-size:16px;
+	border-bottom:2px solid #1f831f;
+	padding:5px;
+	background:url(../images/header.png) repeat;
+	padding-left: 10px;
+	color:#dcdfe3 ;
+	text-transform:uppercase;
+}
+
+.tabelform td {
+	font-family: 'IstokWebRegular';
+	font-size:13px;
+	color:#000000;
+}
+
+.tabpad td {
+	padding-bottom : 5px;
+	padding-right : 20px;
+}
+
+.center  {
+	text-align : center ;
+}
+
+.cent {
+	width : 400px;
+	margin : 0 auto ;
+}
+
+.tabelform input {
+	color:#000000;
+	padding:5px;
+}
+
+.tabelform select {
+	color:#000000;
+	padding:5px;
+}
+
+.margin {
+	margin-top : 20px;
+}
+
+/* LAYOUT LAPORAN */
+
+.body {
+	margin:0 auto;
+	padding:0;
+}
+
+#wrapper {
+	max-width: 960px;
+	min-width: 960px;
+	margin:0 auto;
+	margin-bottom:25px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 7px 7px #000000;
+	-webkit-box-shadow: 0px 7px 7px #000000;
+	box-shadow: 0px 7px 7px #000000;
+	margin-top: 20px;
+}
+
+
+.absensi {
+	font-family: 'arial';
+	font-size : 24px;
+	margin-bottom : 20px;
+	color :#1f831f;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+/* REGISTRASI PEGAWAI */
+#cont-pegawai {
+	max-width: 560px;
+	min-width: 560px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background:#f9f8f6;
+	padding:10px;
+	
+	
+}
+
+.f-r {
+	margin-left:20px;
+}
+
+.hd-r {
+	background:#ffce3d;
+	padding:10px;
+	text-align:center;
+	margin:0;
+	margin-bottom:10px;
+	color:#f1f1ef;
+}
+
+.foto {
+	width:200px;
+	float:left;
+	border:4px solid #343C42;
+	margin-right: 10px;
+}
+
+.rp{
+	width:500px;
+	float:left;
+	margin-right: 10px;
+}
+.rp2{
+	width:400px;
+	float:left;
+}
